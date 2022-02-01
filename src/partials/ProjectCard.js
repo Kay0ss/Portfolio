@@ -4,7 +4,7 @@ import GitHubButton from "react-github-btn";
 
 const ProjectCard = ({ project: { title, description, tags, link } }) => {
   return (
-    <div className="group w-full sm:w-1/2 m-4 mx-auto p-6 rounded-xl border-2 border-gray-300">
+    <div className="group w-full sm:w-1/2 m-4 mx-auto p-6 rounded-xl border-2 border-gray-300 text-center">
       <a href={link}>
         <h1 className="text-xl text-center font-bold">
           {title}{" "}
@@ -19,9 +19,9 @@ const ProjectCard = ({ project: { title, description, tags, link } }) => {
         ))}
       </div>
       <div className="w-full text-center">
-        <GitHubButton href={link} data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</GitHubButton>
+        {/* <GitHubButton href={link} data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</GitHubButton> */}
         {"  "}
-        <GitHubButton href={link + "/fork"} data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</GitHubButton>
+        {/* <GitHubButton href={link + "/fork"} data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</GitHubButton> */}
       </div>
     </div>
   );

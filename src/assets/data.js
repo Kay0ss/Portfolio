@@ -1,14 +1,15 @@
 import React from "react";
-import { FaPalette, FaReact, FaCode } from "react-icons/fa";
+import { FaPalette, FaReact, FaCode, FaFigma } from "react-icons/fa";
+import { SiAdobephotoshop } from "react-icons/si";
 
 const BOOTSTRAP_FOR_SKILL_ICON = "text-4xl mx-auto inline-block";
 const data = {
   name: "Jack Theisen",
   title: "Full-Stack Developer",
   social: {
-    github: "https://github.com/BraydenTW",
-    dribbble: "https://github.com/BraydenTW",
-    twitter: "https://github.com/BraydenTW",
+    github: "https://github.com/Kay0ss",
+    dribbble: "",
+    twitter: "",
     email: "someone@example.com",
   },
   about: {
@@ -28,30 +29,40 @@ const data = {
     {
       skillName: "ReactJS",
       skillIcon: <FaReact className={BOOTSTRAP_FOR_SKILL_ICON} />,
-    },
+    }
+    
   ],
   projects: [
     {
-      title: "React tailwind portfolio",
-      description: "👨‍🎨 An open-source portfolio template built with React and Tailwind.",
+      title: "True Crime Quiz",
+      description: "🕵🏼‍♂️ A simple quiz app with login functionality to keep track of questions the user has made. It was made using, React, HTML, CSS, and Auth0.",
       tags: [
-        "template",
-        "portfolio",
+        "HTML",
+        "CSS",
+        "Reactjs",
+        "Auth0"
+      ],
+      link: "https://github.com/bretpeters3n/true-crime-quiz"
+    },
+    {
+      title: "CaptionMe(Me)",
+      description: "⚡ A simple app that allows users to caption their own photos. It was made using, React, HTML, and CSS.",
+      tags: [
+        "HTML",
+        "CSS",
+        "Handlebars"
+      ],
+      link: "https://captionmeme.herokuapp.com/"
+    },
+    {
+      title: "Character Quiz",
+      description: "🎨 A fun quiz game built with React and Tailwind.",
+      tags: [
+        "quiz",
         "reactjs",
         "tailwindcss"
       ],
-      link: "https://github.com/braydentw/react-tailwind-portfolio"
-    },
-    {
-      title: "My personal website",
-      description: "⚡ My portfolio built with NextJS and TailwindCSS.",
-      tags: [
-        "website",
-        "portfolio",
-        "nextjs",
-        "tailwindcss"
-      ],
-      link: "https://github.com/braydentW/braydentw"
+      link: "https://github.com/kayoss/react-quiz"
     }
   ]
 };
