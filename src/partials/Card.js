@@ -5,8 +5,10 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
 
+
 function Card({ name, title, social: { github, dribbble, twitter, email } }) {
   return (
+
     <div className="w-full">
       <div className="flex flex-col justify-center max-w-xs mx-auto bg-white shadow-xl rounded-xl p-5">
         <div className="me">
@@ -49,6 +51,7 @@ function Card({ name, title, social: { github, dribbble, twitter, email } }) {
         </div>
       </div>
     </div>
+
   );
 }
 
