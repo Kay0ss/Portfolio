@@ -18,7 +18,7 @@ function App() {
   });
   return (
     <div className="bg-gray-100">
-    <a href="/" className="position-absolute w-6 h-5"><img src={logo} alt="logo" className="logo h-16 ml-5 pt-5 bg-gray-100 mr-0" /></a>
+    <div className="flex justify-center h-16"><a href="/" className="w-29"><img src={logo} alt="logo"/></a></div>
     <div className="min-h-screen py-5 px-3 sm:px-5 bg-gray-100">
       <div data-aos="fade-down" data-aos-duration="800">
         <Card name={data.name} title={data.title} social={data.social} />
